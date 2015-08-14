@@ -20,7 +20,9 @@ Package: libkf5holidays-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5holidays5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5holidays5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: holidays calculation library - development files
  This library provides a C++ API that determines holiday and other special
  events for a geographical region.
