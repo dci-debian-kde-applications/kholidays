@@ -21,6 +21,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: libkf5holidays5 (= ${binary:Version}),
+         libkf5kdelibs4support-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: holidays calculation library - development files
