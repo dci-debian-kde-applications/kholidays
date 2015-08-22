@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 15.08.0 amd64 i386
 libKF5Holidays.so.5 libkf5holidays5 #MINVER#
  _ZN9KHolidays10LunarPhase11phaseAtDateERK5QDate@Base 15.07.90
  _ZN9KHolidays10LunarPhase15phaseNameAtDateERK5QDate@Base 15.07.90
@@ -37,6 +37,16 @@ libKF5Holidays.so.5 libkf5holidays5 #MINVER#
  _ZN9KHolidays21HolidayRegionSelector18setSelectionStatusERK7QStringNS0_15SelectionStatusE@Base 15.07.90
  _ZN9KHolidays21HolidayRegionSelector20setDescriptionHiddenEb@Base 15.07.90
  _ZN9KHolidays21HolidayRegionSelector24setRegionUseFlagsEnabledEb@Base 15.07.90
+ _ZN9KHolidays21HolidayRegionSelector7Private10itemRegionEP15QTreeWidgetItem@Base 15.08.0
+ _ZN9KHolidays21HolidayRegionSelector7Private12itemLanguageEP15QTreeWidgetItem@Base 15.08.0
+ _ZN9KHolidays21HolidayRegionSelector7Private13setItemStatusEP15QTreeWidgetItemNS0_15SelectionStatusE@Base 15.08.0
+ _ZN9KHolidays21HolidayRegionSelector7Private14clearSelectionEv@Base 15.08.0
+ _ZN9KHolidays21HolidayRegionSelector7Private18itemRegionUseFlagsEP15QTreeWidgetItem@Base 15.08.0
+ _ZN9KHolidays21HolidayRegionSelector7Private19itemSelectionStatusEP15QTreeWidgetItem@Base 15.08.0
+ _ZN9KHolidays21HolidayRegionSelector7Private21setItemRegionUseFlagsEP15QTreeWidgetItem6QFlagsINS0_13RegionUseFlagEE@Base 15.08.0
+ _ZN9KHolidays21HolidayRegionSelector7Private8findItemERK7QString@Base 15.08.0
+ _ZN9KHolidays21HolidayRegionSelector7Private8initItemEP15QTreeWidgetItemPNS_13HolidayRegionE@Base 15.08.0
+ _ZN9KHolidays21HolidayRegionSelector7Private9itemComboEP15QTreeWidgetItem@Base 15.08.0
  _ZN9KHolidays21HolidayRegionSelectorC1EP7QWidget@Base 15.07.90
  _ZN9KHolidays21HolidayRegionSelectorC2EP7QWidget@Base 15.07.90
  _ZN9KHolidays21HolidayRegionSelectorD0Ev@Base 15.07.90
@@ -99,7 +109,6 @@ libKF5Holidays.so.5 libkf5holidays5 #MINVER#
  (optional=templinst)_ZNSt11_Deque_baseIiSaIiEED2Ev@Base 15.07.90
  (optional=templinst)_ZNSt5dequeIiSaIiEE17_M_push_front_auxIIRKiEEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt5dequeIiSaIiEE17_M_push_front_auxIJRKiEEEvDpOT_@Base 15.07.90
- (optional=templinst)_ZNSt5dequeIiSaIiEE21_M_default_initializeEv@Base 15.07.90
  _ZTIN9KHolidays21HolidayRegionSelectorE@Base 15.07.90
  _ZTSN9KHolidays21HolidayRegionSelectorE@Base 15.07.90
  _ZTVN9KHolidays21HolidayRegionSelectorE@Base 15.07.90
