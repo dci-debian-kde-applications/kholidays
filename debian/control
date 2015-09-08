@@ -18,7 +18,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kholidays.git
 Package: libkf5holidays-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: libkf5holidays5 (= ${binary:Version}),
          libkf5kdelibs4support-dev (>= 5.12.0~),
          ${misc:Depends},
