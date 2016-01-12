@@ -6,6 +6,7 @@ kholidays (15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Refresh symbols. 
+  * No change, trigger rebuild. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:55:29 +0000
 
