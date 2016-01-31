@@ -51,15 +51,3 @@ Description: holidays calculation library
  events for a geographical region.
  .
  This package is part of the KDE Development Platform PIM libraries module.
-
-Package: libkf5holidays-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5holidays5 (= ${binary:Version}), ${misc:Depends}
-Description: holidays calculation library - debug symbols
- This library provides a C++ API that determines holiday and other special
- events for a geographical region.
- .
- This package contains the debug symbols.
