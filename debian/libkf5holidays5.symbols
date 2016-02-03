@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.0 amd64 i386
+# SymbolsHelper-Confirmed: 15.12.0 amd64
 libKF5Holidays.so.5 libkf5holidays5 #MINVER#
  _ZN9KHolidays10LunarPhase11phaseAtDateERK5QDate@Base 15.07.90
  _ZN9KHolidays10LunarPhase15phaseNameAtDateERK5QDate@Base 15.07.90
