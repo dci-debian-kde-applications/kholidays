@@ -1,9 +1,9 @@
-kholidays (15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+kholidays (15.12.1-1ubuntu1) xenial; urgency=medium
 
   * Debian merge: No remaining changes.
   * New upstream release. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 03 Feb 2016 05:45:01 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:45:22 +0100
 
 kholidays (15.12.0-1) experimental; urgency=medium
 
