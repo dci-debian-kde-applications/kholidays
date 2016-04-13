@@ -1,3 +1,12 @@
+kholidays (15.12.3-1~1.gbp8d7e3b) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @8d7e3ba6b6977c08bdf9bd0f226d9378b417336c **
+
+  * Bump Standards-Version to 3.9.8
+  * Update symbols files from buildds logs (15.12.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:21:32 +0200
+
 kholidays (15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
