@@ -13,8 +13,8 @@ Build-Depends: cmake (>= 2.8.12~),
                qttools5-dev (>= 5.2.0)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/pim/kholidays
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kholidays.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kholidays.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kholidays.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kholidays.git
 
 Package: libkf5holidays-dev
 Section: libdevel
