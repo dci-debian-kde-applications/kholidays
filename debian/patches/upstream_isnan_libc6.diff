@@ -17,4 +17,4 @@
 +    if (std::isnan(delta))
          return timeUTC;
      timeUTC = timeUTC.addSecs((720 - (4.0 * delta) - eqTime) * 60);
-     return QTime(timeUTC.hour(), 
+     return QTime(timeUTC.hour(),

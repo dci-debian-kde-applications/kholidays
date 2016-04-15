@@ -1,6 +1,9 @@
-kholidays (15.12.3-0ubuntu2) UNRELEASED; urgency=medium
+kholidays (15.12.3-0ubuntu2) xenial; urgency=medium
 
   * Add upstream patch ti fix build for new libc6. 
+  * Remove newlines from patch. 
+  * Fix whitepaces/newlines/cruft in patch. 
+  * Release to archive.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 15 Apr 2016 05:48:11 -0700
 
