@@ -55,6 +55,7 @@ Description: holidays calculation library
 
 Package: qml-module-org-kde-kholidays
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Architecture: any
 Multi-Arch: same
 Description: holidays calculation library - qml files
  This library provides a C++ API that determines holiday and other special
