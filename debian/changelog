@@ -1,5 +1,8 @@
-kholidays (16.04.0-1~1.gbp4176a1) UNRELEASED; urgency=medium
+kholidays (16.04.0-1~2.gbp11cf00) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @11cf00d7cdaaa972a1f2c80efc4f0561ec221d2a **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @4176a16312cda9937292d387e141800a3df03563 **
 
   * Bump Standards-Version to 3.9.8
@@ -7,7 +10,14 @@ kholidays (16.04.0-1~1.gbp4176a1) UNRELEASED; urgency=medium
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 06:20:15 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update install files
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 16:21:56 +0200
 
 kholidays (15.12.0-1) experimental; urgency=medium
 
