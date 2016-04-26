@@ -52,3 +52,12 @@ Description: holidays calculation library
  events for a geographical region.
  .
  This package is part of the KDE Development Platform PIM libraries module.
+
+Package: qml-module-org-kde-kholidays
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Description: holidays calculation library - qml files
+ This library provides a C++ API that determines holiday and other special
+ events for a geographical region.
+ .
+ This package contains the QML module.
