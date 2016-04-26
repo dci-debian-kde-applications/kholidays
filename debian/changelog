@@ -1,6 +1,6 @@
-kholidays (16.04.0-1~2.gbp11cf00) UNRELEASED; urgency=medium
+kholidays (16.04.0-1~3.gbpa54fbe) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @11cf00d7cdaaa972a1f2c80efc4f0561ec221d2a **
+  ** SNAPSHOT build @a54fbe67e8ceb5204699cd46f138be893d46d528 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @4176a16312cda9937292d387e141800a3df03563 **
@@ -16,8 +16,9 @@ kholidays (16.04.0-1~2.gbp11cf00) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
+  * Add new qml module
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 16:21:56 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 17:12:50 +0200
 
 kholidays (15.12.0-1) experimental; urgency=medium
 
