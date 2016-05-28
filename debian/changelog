@@ -1,4 +1,4 @@
-kholidays (16.04.1-1) unstable; urgency=medium
+kholidays (16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
