@@ -3,10 +3,12 @@ Upstream-Name: kholidays
 Source: http://download.kde.org/pub/kde/unstable/applications/
 
 Files: *
-Copyright: 2004-3009, Allen Winter <winter@kde.org>
+Copyright: 2004-2012, Allen Winter <winter@kde.org>
            2001, Cornelius Schumacher <schumacher@kde.org>
            2008, David Jarvie <djarvie@kde.org>
-           2010, John Layt <john@layt.net>
+           2014, Digia Plc and/or its subsidiary(-ies)
+           2010-2014, John Layt <john@layt.net>
+           2015, Martin Klapetek <mklapetek@kde.org>
 License: LGPL-2+
 
 Files: kholidays/parsers/plan2/holidayparserplan.cpp
@@ -18,15 +20,42 @@ Copyright: 2002-2008, Free Software
            2002-2006, Free Software Foundation, Inc
 License: GPL-3+_BisonException
 
+Files: src/parsers/plan2/FlexLexer.h
+Copyright: 1993, The Regents of the University of California
+License: BSD-3-clause
+
+Files: src/parsers/qcalendarsystem.cpp
+Copyright: 2014, John Layt <john@layt.net>
+           1989, The Regents of the University of California
+License: BSD-3-clause_and_LGPL-2+
+ Redistribution and use in source and binary forms are permitted
+ provided that the above copyright notice and this paragraph are
+ duplicated in all such forms and that any documentation,
+ advertising materials, and other materials related to such
+ distribution and use acknowledge that the software was developed
+ by the University of California, Berkeley.  The name of the
+ University may not be used to endorse or promote products derived
+ from this software without specific prior written permission.
+ THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ --
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Library General Public License for more details.
+ .
+ The complete text of the GNU Library General Public License
+ version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
 Files: src/lunarphase.cpp
 Copyright: 2004-2009, Allen Winter <winter@kde.org>
-License: BSD-4-clause or LGPL-2+
-
-Files: debian/*
-Copyright: 2015 Harald Sitter <sitter@kde.org>
-License: LGPL-2+
-
-License: BSD-4-clause
+License: BSD-4-clause_and_LGPL-2+
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
@@ -53,6 +82,43 @@ License: BSD-4-clause
  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ --
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Library General Public License for more details.
+ .
+ The complete text of the GNU Library General Public License
+ version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+Files: debian/*
+Copyright: 2015 Harald Sitter <sitter@kde.org>
+License: LGPL-2+
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.
 
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
