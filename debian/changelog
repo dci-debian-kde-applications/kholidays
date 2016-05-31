@@ -1,3 +1,18 @@
+kholidays (16.04.1-2~1.gbp72c604) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @72c60496557f7d05b9f4693e7f368fa979deb31f **
+
+  [ Automatic packaging ]
+  * Update changelog for 16.04.1-2~1.gbp737f8d release
+  * Update changelog for 16.04.1-2~1.gbp696f81 release
+
+  [ Maximiliano Curia ]
+  * Update copyright information
+  * Update changelog for 16.04.1-1 release
+  * Update changelog for 16.04.1-1 release
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 31 May 2016 11:20:21 +0200
+
 kholidays (16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
