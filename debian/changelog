@@ -1,10 +1,8 @@
-kholidays (16.04.2-1~1.gbp02187e) UNRELEASED; urgency=medium
+kholidays (16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @02187e1eb3cd17d11598abd5c6b79e15cb9ebfd3 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 06:20:23 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 21 Jun 2016 11:10:34 +0200
 
 kholidays (16.04.1-2) unstable; urgency=medium
 
