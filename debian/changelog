@@ -1,3 +1,11 @@
+kholidays (16.04.3-1~1.gbp07bd7c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @07bd7cf665aeb5aba42fb3d317e6f9bff7e0be9b **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 00:20:27 +0200
+
 kholidays (16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
