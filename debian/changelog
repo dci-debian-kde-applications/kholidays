@@ -1,6 +1,6 @@
-kholidays (16.08.0-1~1.gbpb4baa4) UNRELEASED; urgency=medium
+kholidays (16.08.1-1~1.gbp4a2d42) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b4baa4da70ba4a6730afc5eb4c599b6468b54775 **
+  ** SNAPSHOT build @4a2d42fcde8c954593ffa4651d8e59f4edf8915c **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @07bd7cf665aeb5aba42fb3d317e6f9bff7e0be9b **
@@ -9,8 +9,9 @@ kholidays (16.08.0-1~1.gbpb4baa4) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:20:14 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 13:38:43 +0200
 
 kholidays (16.04.2-1) unstable; urgency=medium
 
