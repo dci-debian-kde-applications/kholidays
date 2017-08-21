@@ -11,24 +11,11 @@ Build-Depends: cmake (>= 2.8.12~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4.0~),
                qtdeclarative5-dev (>= 5.4.0~),
-               qttools5-dev (>= 5.2.0)
+               qttools5-dev (>= 5.2.0),
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/kde/pim/kholidays
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kholidays.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kholidays.git
-
-Package: libkf5holidays-dev
-Section: libdevel
-Architecture: any
-Multi-Arch: same
-Depends: libkf5holidays5 (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: holidays calculation library - development files
- This library provides a C++ API that determines holiday and other special
- events for a geographical region.
- .
- This package contains the development files.
 
 Package: libkf5holidays-data
 Architecture: all
@@ -42,12 +29,25 @@ Description: holidays calculation library
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
+Package: libkf5holidays-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5holidays5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: holidays calculation library - development files
+ This library provides a C++ API that determines holiday and other special
+ events for a geographical region.
+ .
+ This package contains the development files.
+
 Package: libkf5holidays5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5holidays-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: holidays calculation library
  This library provides a C++ API that determines holiday and other special
  events for a geographical region.
