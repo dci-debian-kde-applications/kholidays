@@ -45,6 +45,7 @@ Description: holidays calculation library - development files
  events for a geographical region.
  .
  This package contains the development files.
+Breaks: libkf5alarmcalendar-dev (<< 4:17.08)
 
 Package: libkf5holidays5
 Architecture: any
@@ -57,6 +58,10 @@ Description: holidays calculation library
  events for a geographical region.
  .
  This package is part of the KDE Development Platform PIM libraries module.
+Breaks: kalarm (<< 4:17.08),
+        korganizer (<< 4:17.08),
+        libkf5alarmcalendar5 (<< 4:17.08),
+        libkf5calendarsupport5 (<< 4:17.08),
 
 Package: qml-module-org-kde-kholidays
 Depends: ${misc:Depends}, ${shlibs:Depends}
