@@ -12,7 +12,7 @@ Build-Depends: cmake (>= 3.0~),
                qtbase5-dev (>= 5.7.0~),
                qtdeclarative5-dev (>= 5.7.0~),
                qttools5-dev (>= 5.2.0),
-Standards-Version: 4.0.1
+Standards-Version: 4.1.2
 Homepage: https://projects.kde.org/projects/kde/pim/kholidays
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kholidays.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kholidays.git

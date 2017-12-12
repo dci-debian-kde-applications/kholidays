@@ -3,6 +3,7 @@ kholidays (4:17.08.3-1) UNRELEASED; urgency=medium
   [ Sandro Knauß ]
   * New upstream release (17.08.3).
   * Remove breaks/replaces for kde-l10n-ast and kde-l10n-eo.
+  * Bump Standards-Version to 4.1.2 (No changes needed).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 20:21:50 +0100
 
