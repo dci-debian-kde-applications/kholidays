@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 16.08.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 17.08.0 alpha arm64 armel hppa hurd-i386 kfreebsd-amd64 kfreebsd-i386 m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x
 libKF5Holidays.so.5 libkf5holidays5 #MINVER#
  _ZN9KHolidays10LunarPhase11phaseAtDateERK5QDate@Base 15.07.90
  _ZN9KHolidays10LunarPhase15phaseNameAtDateERK5QDate@Base 15.07.90
@@ -60,5 +60,4 @@ libKF5Holidays.so.5 libkf5holidays5 #MINVER#
  (optional=templinst|subst)_ZNSt11_Deque_baseIiSaIiEE17_M_initialize_mapE{size_t}@Base 15.07.90
  (optional=templinst)_ZNSt11_Deque_baseIiSaIiEED1Ev@Base 15.07.90
  (optional=templinst)_ZNSt11_Deque_baseIiSaIiEED2Ev@Base 15.07.90
- (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt5dequeIiSaIiEE17_M_push_front_auxIIRKiEEEvDpOT_@Base 15.07.90
  (optional=templinst)_ZNSt5dequeIiSaIiEE17_M_push_front_auxIJRKiEEEvDpOT_@Base 15.07.90
